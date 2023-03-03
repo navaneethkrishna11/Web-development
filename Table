@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>small_table_layout</title>
+    </head>
+<body>
+    <h1> TABLE </h1>
+    <style>
+        table{
+            border: 2px solid blue;
+        }
+        td{
+            border: 2px solid green;
+        }
+       
+           </style>
+          <table>
+        <thread>
+            <th>Animal </th>
+            <th>Name </th>
+            <th>Age </th>
+         </thread>
+            <tr>
+                <td>cat</td>
+                <td>Bruce</td>
+                <td>20</td>
+            </tr>
+           
+            <tr>
+                <td>Dog </td>
+                <td>Kaizer </td>
+                <td>4</td>
+            </tr>
+        
+    </table>
+
+
+</body>
+</html>
