@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Form</title>
+   
+</head>
+<body>
+    <h1><b>Registration form</h1>
+    
+    <div id="form">
+        <form>
+            <label for="first name :">First name :</label>
+            <input type="text" name="first name" placeholder="rocky" required >
+            
+            <label for="last name">Last name :</label>
+            <input type="text" name="'last name">
+
+         <div>
+            <label for="Gender :">Male</label>
+            <input type="radio" name="choicegender" >
+            <label for="Gender :">Female</label>
+            <input type="radio" name="choicegender">
+         </div>
+
+         <div>
+
+            <label for="email">Email</label>
+            <input type="email" name="mail" placeholder="rockybhai@gmail.com">
+         </div>
+
+            <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+         </div>
+
+         <div>
+            <label for="dob">dob</label>
+             <select name="dob">
+                <option value="0" selected disabled></option>
+             <option value="january">january</option>
+             <option valeu="februvary">februvary</option>
+             <option value ="march">march</option>
+             <option value="april">april</option>
+             <option value="may">may</option>
+             <option value="june">june</option>
+             <option value="july">july</option>
+             <option value="august">august</option>
+             <option value="september">september</option>
+             <option value="november">november</option>
+             <option value="december">december</option>
+            </select>
+         
+             </div>
+             <div>
+             <label for="agree">agree for all above conditions</label>
+             <input type="checkbox">
+             <button type="submit">submit</button>
+
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>
